@@ -13,9 +13,7 @@ Data Source -
 All preference datasets are sourced from PrefLib – The Preference Library:https://www.preflib.org
 The original PrefLib instances are retained, except for minimal preprocessing applied to ensure consistency across experimental instances (please see below)
 
-Dataset Preprocessing - 
-
-File Name	                -   Preprocessing Applied
+File Names and Dataset Preprocessing 
 
 00044-00000038.soi	  - Truncated to the minimum ranking length across all lists
 
