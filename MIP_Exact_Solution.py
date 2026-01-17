@@ -8,10 +8,8 @@ from gurobipy import GRB
 
 #Setup
 start = time.time()
-base = r"C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission"
-CSV  = "Testt.csv"
+CSV  = "dataset.csv"
 p    = 0.5
-os.chdir(base)
 df = pd.read_csv(CSV, header=None, dtype=str)
 
 #Data parsing
@@ -220,3 +218,4 @@ if model.status in (GRB.OPTIMAL, GRB.TIME_LIMIT):
 else:
     print(f"No feasible/optimal solution; status: {model.status}")
 print(f"\nExecution time: {time.time() - start:.3f} seconds")
+
