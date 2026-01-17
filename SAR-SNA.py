@@ -8,18 +8,17 @@ import pandas as pd
 
 # Config
 BASE_DIR     = r"C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission"
-CSV_FILE     = "Testt.csv"
+CSV  = "dataset.csv"
 ROW_FRACTION = 1
 SEED         = 42
 p            = 0.5           
 TOL          = 1e-9
 LOCAL_OPT_METHOD = "bubble_back"
-os.chdir(BASE_DIR)
 random.seed(SEED)
 
 
 # Load & truncate data
-df = pd.read_csv(CSV_FILE, header=None, dtype=str)
+df = pd.read_csv(CSV, header=None, dtype=str)
 orig_rows = df.shape[0]
 df = df.iloc[:max(1, int(orig_rows * ROW_FRACTION)), :]
 k = df.shape[0]
@@ -235,3 +234,4 @@ swaps_time      = end - time_before_swaps
 print(f"\nTime until swaps: {time_until_swaps:.3f} seconds")
 print(f"Time for swaps: {swaps_time:.3f} seconds")
 print(f"{dist0:.1f},{best_dist:.1f},{time_until_swaps:.3f},{swaps_time:.3f}")
+
