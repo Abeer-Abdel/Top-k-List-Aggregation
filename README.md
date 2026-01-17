@@ -15,7 +15,7 @@ The original PrefLib instances are retained, except for minimal preprocessing ap
 
 Dataset Preprocessing - 
 
-File Name	               Preprocessing Applied
+File Name	                -   Preprocessing Applied
 
 00044-00000038.soi	  - Truncated to the minimum ranking length across all lists
 
