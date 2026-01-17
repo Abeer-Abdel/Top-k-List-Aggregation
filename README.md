@@ -3,8 +3,7 @@ This repository contains the datasets and source code used in the journal articl
 Heuristic Methods for Top-k List Aggregation under the Generalized Kendall Tau Distance - 
 EvoCOP 2026
 
-Scope and Purpose
-
+Scope and Purpose - 
 The goal of this repository is to enable reproducibility of the computational experiments presented in the associated paper. It provides:
 - Preference datasets used in the experiments
 - Preprocessing procedures applied to the data
