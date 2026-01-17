@@ -14,14 +14,23 @@ All preference datasets are sourced from PrefLib – The Preference Library:http
 The original PrefLib instances are retained, except for minimal preprocessing applied to ensure consistency across experimental instances (please see below)
 
 Dataset Preprocessing - 
+
 File Name	        Preprocessing Applied
+
 00044-00000038.soi	Truncated to the minimum ranking length across all lists
+
 00046-00000004.soi	Truncated to the minimum ranking length across all lists
+
 00056-00001203.soc	Truncated to 50% of the ranking length (original instance is fully ranked)
+
 00048-00000561.soi	No preprocessing applied
+
 00045-00000029.soi	No preprocessing applied
+
 00043-00000196.soi	Truncated to the minimum ranking length across all lists
+
 00050-00000001.soc	Truncated to the minimum ranking length across all lists
+
 00051-00000012.soi	Truncated to the minimum ranking length; final ranking discarded (anomaly)
 
 Reproducibility - 
