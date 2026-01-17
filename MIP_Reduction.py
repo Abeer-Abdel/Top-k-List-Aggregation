@@ -10,8 +10,7 @@ from gurobipy import GRB
 
 
 REDUCTION_MODE = "explicit"   # "explicit" or "implicit"
-base = r"C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission"
-CSV  = "Testt.csv"
+CSV  = "dataset.csv"
 p    = 0.5
 os.chdir(base)
 df = pd.read_csv(CSV, header=None, dtype=str)
@@ -398,4 +397,5 @@ if model.status in (GRB.OPTIMAL, GRB.TIME_LIMIT):
 else:
     print(f"No feasible/optimal solution; status: {model.status}")
 end = time.time()
+
 print(f"\nExecution time: {end - start:.3f} seconds")
