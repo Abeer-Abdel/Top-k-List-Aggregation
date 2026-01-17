@@ -8,7 +8,7 @@ from itertools import combinations
 
 
 # Config
-os.chdir("C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission")
+df = pd.read_csv(CSV)
 RANKINGS = "Testt.csv"
 ROW_FRACTION = 1          # keep top fraction of rows
 p = 0.5                   
@@ -273,4 +273,5 @@ time_until_swaps = time_before_swaps - start
 swaps_time = end - time_before_swaps
 print(f"\nTime until swaps: {time_until_swaps:.3f} seconds")
 print(f"Time for swaps: {swaps_time:.3f} seconds")
+
 
