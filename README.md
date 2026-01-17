@@ -4,6 +4,7 @@ Heuristic Methods for Top-k List Aggregation under the Generalized Kendall Tau D
 EvoCOP 2026
 
 Scope and Purpose
+
 The goal of this repository is to enable reproducibility of the computational experiments presented in the associated paper. It provides:
 - Preference datasets used in the experiments
 - Preprocessing procedures applied to the data
