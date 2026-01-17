@@ -9,7 +9,7 @@ from itertools import combinations
 
 # Config
 df = pd.read_csv(CSV)
-RANKINGS = "Testt.csv"
+RANKINGS = "dataset.csv"
 ROW_FRACTION = 1          # keep top fraction of rows
 p = 0.5                   
 TOL = 1e-9                # tolerance for tie-breaking in LIC
@@ -273,5 +273,6 @@ time_until_swaps = time_before_swaps - start
 swaps_time = end - time_before_swaps
 print(f"\nTime until swaps: {time_until_swaps:.3f} seconds")
 print(f"Time for swaps: {swaps_time:.3f} seconds")
+
 
 
