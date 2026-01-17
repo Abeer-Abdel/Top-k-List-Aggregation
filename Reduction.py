@@ -2,9 +2,8 @@ import pandas as pd
 import os
 from collections import Counter, defaultdict
 from pathlib import Path
-os.chdir("C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission")
-csv_file = "Testt.csv"
-df = pd.read_csv(csv_file, header=None, dtype=str)
+CSV  = "dataset.csv"
+df = pd.read_csv(CSV, header=None, dtype=str)
 
 
 def _parse_cell(cell):
@@ -68,5 +67,6 @@ for item in sorted(weak_items):
 in_path = Path(csv_file)
 out_path = in_path.with_name(f"{in_path.stem}_reduced_items.csv")
 pd.DataFrame(sorted(weak_items)).to_csv(out_path, index=False, header=False)
+
 
 
