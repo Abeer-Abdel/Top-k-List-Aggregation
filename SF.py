@@ -9,8 +9,7 @@ from scipy.optimize import linear_sum_assignment
 
 
 # Config
-os.chdir("C:/Users/abora/Desktop/Research/4. Top-K list/Github_Submission")
-CSV  = "Testt.csv"
+CSV  = "dataset.csv"
 P    = 0.5               
 TOL  = 1e-9               
 ROW_FRACTION = 1.0        
