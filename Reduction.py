@@ -64,9 +64,10 @@ for item in sorted(weak_items):
     print(f"{item} -- Avg Rank: {avg_rank[item]:.1f} -- Appearances: {freq_counts[item]}")
 
 # Export removed items
-in_path = Path(csv_file)
+in_path = Path(CSV)
 out_path = in_path.with_name(f"{in_path.stem}_reduced_items.csv")
 pd.DataFrame(sorted(weak_items)).to_csv(out_path, index=False, header=False)
+
 
 
 
