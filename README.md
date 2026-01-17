@@ -15,23 +15,23 @@ The original PrefLib instances are retained, except for minimal preprocessing ap
 
 Dataset Preprocessing - 
 
-File Name	        Preprocessing Applied
+File Name	               Preprocessing Applied
 
-00044-00000038.soi	Truncated to the minimum ranking length across all lists
+00044-00000038.soi	  - Truncated to the minimum ranking length across all lists
 
-00046-00000004.soi	Truncated to the minimum ranking length across all lists
+00046-00000004.soi	  - Truncated to the minimum ranking length across all lists
 
-00056-00001203.soc	Truncated to 50% of the ranking length (original instance is fully ranked)
+00056-00001203.soc	  - Truncated to 50% of the ranking length (original instance is fully ranked)
 
-00048-00000561.soi	No preprocessing applied
+00048-00000561.soi	  - No preprocessing applied
 
-00045-00000029.soi	No preprocessing applied
+00045-00000029.soi  	- No preprocessing applied
 
-00043-00000196.soi	Truncated to the minimum ranking length across all lists
+00043-00000196.soi	  - Truncated to the minimum ranking length across all lists
 
-00050-00000001.soc	Truncated to the minimum ranking length across all lists
+00050-00000001.soc	  - Truncated to the minimum ranking length across all lists
 
-00051-00000012.soi	Truncated to the minimum ranking length; final ranking discarded (anomaly)
+00051-00000012.soi	  - Truncated to the minimum ranking length; final ranking discarded (anomaly)
 
 Reproducibility - 
 All preprocessing steps and algorithmic procedures described in the paper can be reproduced using the code provided in this repository.
